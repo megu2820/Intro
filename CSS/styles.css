@@ -1,0 +1,207 @@
+/*TAG SELECTORS*/
+  body{ 
+   margin: 0;
+   text-align: center;
+   font-family: 'Fredoka One', cursive; }
+
+  h1{ margin-top: 0;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 90px;
+    font-style: normal;
+    margin-top: 50px;
+    color: #45b29a;
+    line-height: 2;}
+
+    h2{font-family: 'Boogaloo', cursive;
+     font-size:  40px;
+       color: #45b29a;
+     font-weight: normal;
+     padding: 10px;
+     font-size: 70px;}
+
+
+ h3{font-family: 'Boogaloo', cursive;
+        color: #11999E;
+     font-size: 30px;
+     text-decoration: underline;}
+
+  hr{   
+     border: dotted;
+     width: 5%;
+     border-color: grey;
+     border-width: 5px;
+     margin: 30px auto;
+      border-bottom: none; }
+
+   p{ margin-bottom: 20px; 
+      height: 2;
+      font-size: 22px; }
+
+   a{ color: #154682;
+      font-family: 'Fredoka One', cursive;
+      margin: 10px 20px; }
+  
+   a:hover{	color: #Eaf6f6; }
+ 
+
+/*CLASS SELECTORS*/
+
+ .top-container{
+ 	background-color: #e4f9f5;
+ 	position: relative;
+ 	padding-top: 100px;
+ 	height: 746.5px;
+ 	border-bottom: solid 5px;
+ 	}
+
+ .middle-container{
+ 	
+     background-color: #90ee90;
+     height: 2649px;}
+
+ .bottom-container{
+ 	background-color: #66bfbf;
+ 	padding: 50px 0 20px;
+    border-top: solid 5px;}
+
+ .top-cloud
+ { position: absolute;
+ right: 300px;
+ top: 50px;
+ animation-duration: 3s;
+ animation-name: slidein;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;}
+
+ @keyframes slidein {
+  from {
+    right: 50px;
+    top: 50px;
+  }
+
+  to {
+    right: 300px;
+    top: 50px;
+    
+   
+  }
+}
+ .bottom-cloud
+ { position: absolute;
+  left: 300px;
+  bottom: 300px;
+  animation-duration: 3s;
+  animation-name: slideout;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; }
+  @keyframes slideout {
+  from {
+    left: 150px;
+    bottom: 300px;
+  }
+
+  to {
+    left: 300px;
+    bottom: 300px;
+    
+   
+  }
+}
+
+  .girl-image
+  { position: absolute;
+     right: 1100px;
+     top: 50px; 
+     width: 10%;}
+
+  .skill-row
+   { width: 50%;
+     margin: 100px auto 100px auto;
+     text-align: left;
+     }
+
+   .monitor-image
+    { width: 40%;
+      float: left;
+      margin-right: 30px;
+      margin-bottom: 20px;
+      height: 40%;}
+
+    .teapot-image
+     { margin-top: 30px;
+       width: 50%;
+       float: right;
+       margin-left: 30px; }
+
+    .profile-picture
+      { padding-top: 100px;
+      	width: 15%; }
+
+    .design-description
+     { margin-bottom: 40px;}
+        
+    .intro
+    { width: 30%;
+      margin: auto;}
+
+    .contact-message
+     {width: 40%;
+      margin: 40px auto 60px;
+      font-size: 25px;
+      padding-bottom: 50px;
+      }
+    .profile
+    { border-bottom: solid 5px;
+    	padding-bottom: 100px;}
+        
+    .btn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #11cdd4), color-stop(1, #11999e) );
+	background:-moz-linear-gradient( center top, #11cdd4 5%, #11999e 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#11cdd4', endColorstr='#11999e');
+	background-color:#11cdd4;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0px;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	color:#ffffff;
+	font-family: 'Boogaloo', cursive;
+	font-size:25px;
+	font-weight:bold;
+	font-style:normal;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:15px;
+	padding-right:15px;
+	text-decoration:none;
+	text-align:center;
+    text-shadow:1px 1px 0px #cc9f52;}
+
+    .btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #30e3cb), color-stop(1, #2bc4ad) );
+	background:-moz-linear-gradient( center top, #11999e 5%, #11cdd4 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#11999e', endColorstr='#11cdd4');
+	background-color:#11999e;}
+
+    .btn:active {
+	position:relative;
+	top:1px;}
+	.skills
+	{ background-color: powderblue;
+	padding: 100px; 
+   padding-bottom: 50px;
+    
+border-bottom:solid 5px;}
